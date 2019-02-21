@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>838365858682-gd2gmknp2csdj5qhq7ump7n3fuui7or4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.838365858682-gd2gmknp2csdj5qhq7ump7n3fuui7or4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBpK1nVB56GEoNmvP7sYDMxmdLxTwl4_60</string>
+	<key>GCM_SENDER_ID</key>
+	<string>838365858682</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pykeeco.coffeemap</string>
+	<key>PROJECT_ID</key>
+	<string>ios-map-thing</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ios-map-thing.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:838365858682:ios:426d2a32b4db1909</string>
+	<key>DATABASE_URL</key>
+	<string>https://ios-map-thing.firebaseio.com</string>
+</dict>
+</plist>

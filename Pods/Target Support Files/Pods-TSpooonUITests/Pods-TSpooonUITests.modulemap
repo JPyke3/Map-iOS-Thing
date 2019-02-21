@@ -1,0 +1,6 @@
+framework module Pods_TSpooonUITests {
+  umbrella header "Pods-TSpooonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
