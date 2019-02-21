@@ -66,7 +66,6 @@
 		1B752B82C75918F9282E6CF7 /* Pods-TSpooon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSpooon.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSpooon/Pods-TSpooon.release.xcconfig"; sourceTree = "<group>"; };
 		5534304F1B51E6F067AED090 /* Pods-TSpooonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSpooonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSpooonUITests/Pods-TSpooonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A0927D721F88A5800FBA771 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		5A0927E021F9A0D500FBA771 /* colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = colors.swift; path = ../../../../../Downloads/colors.swift; sourceTree = "<group>"; };
 		5A0927E321F9A69500FBA771 /* park.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = park.mp4; sourceTree = "<group>"; };
 		5A1E4D1D21F871990079F3F2 /* AppDelegate + GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate + GoogleSignIn.swift"; sourceTree = "<group>"; };
 		5A34FA3E21FBA2AA00CC6CBC /* ApplicationScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationScheme.swift; sourceTree = "<group>"; };
@@ -144,7 +143,6 @@
 				5A3AC47621F9CE080000F540 /* baseline-location_on-24px.png */,
 				5A3AC47221F9CBD70000F540 /* baseline-location_on-24px.svg */,
 				5A0927E321F9A69500FBA771 /* park.mp4 */,
-				5A0927E021F9A0D500FBA771 /* colors.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";

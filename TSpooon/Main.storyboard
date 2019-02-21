@@ -27,7 +27,7 @@
                                 <rect key="frame" x="75" y="88.999999999999986" width="225" height="166.66666666666663"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interesting Logo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5B-ZH-sRV">
-                                        <rect key="frame" x="50.666666666666686" y="73" width="124.00000000000001" height="21"/>
+                                        <rect key="frame" x="50.666666666666671" y="73" width="124.00000000000001" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -320,7 +320,7 @@
                                         <rect key="frame" x="70.000000000000043" y="32" width="223.66666666666663" height="259"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interesting Logo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUa-Kt-3rW">
-                                                <rect key="frame" x="57.333333333333258" y="120.66666666666667" width="108.66666666666669" height="17.666666666666671"/>
+                                                <rect key="frame" x="57.333333333333265" y="120.66666666666667" width="108.66666666666669" height="17.666666666666671"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -823,10 +823,27 @@
                                 <rect key="frame" x="20" y="268" width="335" height="544"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejo-Yu-Z6F" customClass="MDCFloatingButton">
+                                <rect key="frame" x="16" y="102" width="52" height="52"/>
+                                <color key="backgroundColor" red="0.47450980390000003" green="0.33333333329999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="52" id="a0G-k1-RBC"/>
+                                    <constraint firstAttribute="height" constant="52" id="bR5-V5-p81"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="JLK-4j-7nc" kind="show" id="EhG-ut-CuS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="bcl-B3-3zU" firstAttribute="leading" secondItem="zAs-fm-feD" secondAttribute="leading" constant="20" id="4WY-BY-8a1"/>
+                            <constraint firstItem="ejo-Yu-Z6F" firstAttribute="top" secondItem="ZDK-vl-JBR" secondAttribute="bottom" constant="8" id="6EK-Zn-iAm"/>
                             <constraint firstItem="ZDK-vl-JBR" firstAttribute="top" secondItem="zAs-fm-feD" secondAttribute="top" id="Cbq-Rz-UxD"/>
                             <constraint firstItem="mOv-jE-aEx" firstAttribute="top" secondItem="jYy-60-7Gc" secondAttribute="bottom" constant="8" id="CpF-42-zIs"/>
                             <constraint firstItem="bcl-B3-3zU" firstAttribute="top" secondItem="mOv-jE-aEx" secondAttribute="bottom" constant="8" id="F4B-FS-pM3"/>
@@ -836,6 +853,7 @@
                             <constraint firstItem="jYy-60-7Gc" firstAttribute="top" secondItem="ZDK-vl-JBR" secondAttribute="bottom" constant="50" id="LDV-d1-GcR"/>
                             <constraint firstAttribute="trailing" secondItem="TAY-AA-srh" secondAttribute="trailing" id="Omd-c3-fQs"/>
                             <constraint firstItem="zAs-fm-feD" firstAttribute="trailing" secondItem="jYy-60-7Gc" secondAttribute="trailing" constant="20" id="QS6-0b-AMP"/>
+                            <constraint firstItem="ejo-Yu-Z6F" firstAttribute="leading" secondItem="zAs-fm-feD" secondAttribute="leading" constant="16" id="TIH-of-tnV"/>
                             <constraint firstItem="ZDK-vl-JBR" firstAttribute="leading" secondItem="zAs-fm-feD" secondAttribute="leading" id="Tbw-eE-U71"/>
                             <constraint firstItem="mOv-jE-aEx" firstAttribute="leading" secondItem="zAs-fm-feD" secondAttribute="leading" constant="20" id="fgy-1Y-O5v"/>
                             <constraint firstItem="zAs-fm-feD" firstAttribute="trailing" secondItem="mOv-jE-aEx" secondAttribute="trailing" constant="20" id="hjb-h2-Mse"/>
@@ -859,4 +877,7 @@
         <image name="star_icon" width="512" height="512"/>
         <image name="unknown_user" width="512" height="512"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="EhG-ut-CuS"/>
+    </inferredMetricsTieBreakers>
 </document>
